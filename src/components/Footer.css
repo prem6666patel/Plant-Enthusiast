@@ -1,0 +1,38 @@
+.footer {
+    background-color: #2d6a4f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+
+  .footpanel{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+
+}
+
+.footpanel:hover{
+
+  font-size: xx-large;
+}
+
+  
+  
+  
+
+  @media (max-width: 768px) {
+  
+    .footer p {
+      font-size: 0.8rem;
+    }
+  }
+  

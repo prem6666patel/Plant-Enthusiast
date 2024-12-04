@@ -1,0 +1,75 @@
+[
+    {
+      "name": "Snake Plant",
+      "price": "25",
+      "detail": "Known as a 'mother-in-law's tongue,' this hardy plant is perfect for purifying air and thrives in low light conditions. Ideal for offices and homes.",
+      "image": "./sanke_plant.jpeg"
+    },
+    {
+      "name": "Adenium Plant",
+      "price": "30",
+      "detail": "Often called 'Desert Rose,' this flowering plant has thick stems and beautiful pink blooms. Perfect for bright, sunny spaces.",
+      "image": "./adenium_plant.jpeg"
+    },
+    {
+      "name": "Devil Backbone Plant",
+      "price": "28",
+      "detail": "A unique plant with zig-zag stems and small leaves. Low-maintenance and a great conversation starter for any space.",
+      "image": "./devil_backbone_plant.jpeg"
+    },
+    {
+      "name": "Spider Plant",
+      "price": "20",
+      "detail": "An easy-to-care-for plant with arching green and white leaves. Known for its ability to reduce indoor air pollution.",
+      "image": "./Spider_plant.jpeg"
+    },
+    {
+        "name": "Snake Plant",
+        "price": "25",
+        "detail": "Known as a 'mother-in-law's tongue,' this hardy plant is perfect for purifying air and thrives in low light conditions. Ideal for offices and homes.",
+        "image": "./sanke_plant.jpeg"
+      },
+      {
+        "name": "Adenium Plant",
+        "price": "30",
+        "detail": "Often called 'Desert Rose,' this flowering plant has thick stems and beautiful pink blooms. Perfect for bright, sunny spaces.",
+        "image": "./adenium_plant.jpeg"
+      },
+      {
+        "name": "Devil Backbone Plant",
+        "price": "28",
+        "detail": "A unique plant with zig-zag stems and small leaves. Low-maintenance and a great conversation starter for any space.",
+        "image": "./devil_backbone_plant.jpeg"
+      },
+      {
+        "name": "Spider Plant",
+        "price": "20",
+        "detail": "An easy-to-care-for plant with arching green and white leaves. Known for its ability to reduce indoor air pollution.",
+        "image": "./Spider_plant.jpeg"
+      },
+      {
+        "name": "Snake Plant",
+        "price": "25",
+        "detail": "Known as a 'mother-in-law's tongue,' this hardy plant is perfect for purifying air and thrives in low light conditions. Ideal for offices and homes.",
+        "image": "./sanke_plant.jpeg"
+      },
+      {
+        "name": "Adenium Plant",
+        "price": "30",
+        "detail": "Often called 'Desert Rose,' this flowering plant has thick stems and beautiful pink blooms. Perfect for bright, sunny spaces.",
+        "image": "./adenium_plant.jpeg"
+      },
+      {
+        "name": "Devil Backbone Plant",
+        "price": "28",
+        "detail": "A unique plant with zig-zag stems and small leaves. Low-maintenance and a great conversation starter for any space.",
+        "image": "./devil_backbone_plant.jpeg"
+      },
+      {
+        "name": "Spider Plant",
+        "price": "20",
+        "detail": "An easy-to-care-for plant with arching green and white leaves. Known for its ability to reduce indoor air pollution.",
+        "image": "./Spider_plant.jpeg"
+      }
+  ]
+  

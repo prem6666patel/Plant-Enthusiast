@@ -1,0 +1,56 @@
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('/images/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #2d6a4f;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: darkseagreen;
+  }
+  
+  .hero-button {
+    background-color: #2d6a4f;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #1b4332;
+    font-size: large;
+  }
+  
+
+  @media (max-width: 768px) {
+    .hero {
+      padding: 50px 20px;
+      text-align: left;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  
+    .hero-button {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  
