@@ -150,3 +150,47 @@
     }
   }
   
+
+  .v-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10rem; /* Adjusted for desktop screens */
+  }
+  
+  .v-left img {
+    height: 35rem; /* Default height for large screens */
+    border-radius: 2rem;
+    object-fit: cover; /* Ensures proper cropping while maintaining aspect ratio */
+  }
+  
+  @media (max-width: 1024px) {
+    .v-left {
+      padding: 0 5rem; /* Adjust padding for tablets */
+    }
+  
+    .v-left img {
+      height: 25rem; /* Reduce height for tablets */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .v-left {
+      padding: 0 2rem; /* Further reduce padding for smaller screens */
+    }
+  
+    .v-left img {
+      width: 100%; /* Make the image responsive to fit its container */
+      height: auto; /* Maintain aspect ratio */
+      border-radius: 1rem; /* Slightly reduce border radius */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .v-left img {
+      width: 90%; /* Add some margin around the image for extra breathing space */
+      max-width: 400px; /* Optional: Limit maximum width on extra small screens */
+      height: auto; /* Ensure the image scales correctly */
+    }
+  }
+  
