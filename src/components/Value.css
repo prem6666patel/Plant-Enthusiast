@@ -1,0 +1,151 @@
+.v-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping for better responsiveness */
+    gap: 20px; /* Add some space between items for better spacing */
+  }
+
+  .headingone{
+
+    font-size:3rem;
+  }
+  
+  .image-container {
+    width: 100%;
+    max-width: 500px; /* Limit the maximum size of the image */
+    border: 8px solid rgb(232, 232, 232);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Center the image in its container */
+    overflow: hidden;
+    height: 75%;
+  }
+  
+  .image-container img {
+    width: 100%; /* Make the image responsive */
+    height:50%; /* Maintain aspect ratio */
+    object-fit: cover; /* Adjust cropping as needed */
+  }
+  
+  .v-right {
+    gap: 0.5rem;
+    flex: 1; /* Allow the right content to take up remaining space */
+    max-width: 600px; /* Optional: Limit the width on larger screens */
+  }
+  
+  .v-right .orangeText {
+    color: #ff6f00; /* Plant care accent color */
+    font-size: 1.2rem;
+  }
+  
+  .v-right .primaryText {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c6e49; /* Dark green color for main heading */
+  }
+  
+  .v-right .secondaryText {
+    font-size: 1rem;
+    color: #6b8e23; /* Olive green for secondary text */
+  }
+  
+  .accordion {
+    margin-top: 2rem;
+    border: none;
+  }
+  
+  .accordionitem {
+    background-color: white;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .accordionbtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordionbtn:hover {
+    background-color: #f1f1f1; /* Light grey hover effect */
+  }
+  
+  .accordionbtn .primaryText {
+    font-size: 1.1rem;
+    color: #2c6e49; /* Green text for headings */
+    font-weight: bold;
+  }
+  
+  .accordionbtn .icon {
+    padding: 10px;
+    background-color: #eeeeff;
+    border-radius: 5px;
+  }
+  
+  .accordionbtn .icon:hover {
+    background-color: #ddd; /* Light grey hover effect for icons */
+  }
+
+  .v-left{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img{
+
+        height:35rem;
+        padding-right: 8rem;
+        border-radius:8rem;
+    }
+  }
+  
+  /* Responsive Design Adjustments */
+  @media (max-width: 1024px) {
+    .v-container {
+      flex-direction: column; /* Stack the image and content vertically */
+      align-items: center; /* Center-align content */
+      gap: 20px; /* Add spacing between stacked items */
+    }
+  
+    .image-container {
+      max-width: 100%; /* Allow the image container to scale to full width */
+      margin: 0; /* Remove extra margins */
+    }
+  
+    .v-right {
+      text-align: center; /* Center-align text content */
+    }
+  
+    .accordionbtn .primaryText {
+      font-size: 1rem; /* Adjust font size for medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .v-container {
+      padding: 0 20px; /* Add some padding for smaller screens */
+    }
+  
+    .accordionbtn .primaryText {
+      font-size: 0.8rem; /* Reduce font size for smaller screens */
+    }
+  
+    .v-right .primaryText {
+      font-size: 1.2rem; /* Smaller heading text for mobile */
+    }
+  
+    .v-right .secondaryText {
+      font-size: 0.9rem; /* Adjust secondary text for smaller screens */
+    }
+  }
+  

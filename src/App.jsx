@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import R from "./components/R";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ConsultationForm from "./components/ConsultationForm";
+import Value from "./components/Value";
 
 function App() {
   const router = createBrowserRouter([
@@ -20,6 +21,7 @@ function App() {
           <Services />
           <Contact></Contact>
           <R></R>
+          <Value></Value>
           <Testimonials />
           <Footer />
         </>
@@ -34,6 +36,7 @@ function App() {
           <Services />
           <Contact></Contact>
           <R></R>
+          <Value></Value>
           <Testimonials />
           <Footer />
         </>
@@ -63,6 +66,7 @@ function App() {
         <>
           <Navbar />
           <Contact></Contact>
+          <Footer></Footer>
         </>
       ),
     },
@@ -81,6 +85,15 @@ function App() {
         <>
           <Navbar />
           <ConsultationForm></ConsultationForm>
+        </>
+      ),
+    },
+    {
+      path: "/value",
+      element: (
+        <>
+          <Navbar />
+          <Value></Value>
         </>
       ),
     },
