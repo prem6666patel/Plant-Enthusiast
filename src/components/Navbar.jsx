@@ -6,37 +6,51 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
+    setMenuOpen((prev) => !prev);
   };
 
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src="./public/plant_logo2.png" alt="" />
-        <pre> </pre>
-        Plant Enthusiast
+        <img src="./public/plant_logo2.png" alt="Plant Enthusiast Logo" />
+        <span>Plant Enthusiast</span>
       </div>
 
       {/* Mobile toggle button */}
-      <button className="navbar-toggle" onClick={toggleMenu}>
+      <button
+        className="navbar-toggle"
+        onClick={toggleMenu}
+        aria-label="Toggle Menu"
+      >
         ☰
       </button>
+
       {/* Navbar links */}
       <ul className={`navbar-links ${menuOpen ? "active" : ""}`}>
         <li>
-          <Link to="/home">Home</Link>
+          <Link to="/home" onClick={() => setMenuOpen(false)}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/Services">Services</Link>
+          <Link to="/services" onClick={() => setMenuOpen(false)}>
+            Services
+          </Link>
         </li>
         <li>
-          <Link to="/gallery">gallery</Link>
+          <Link to="/gallery" onClick={() => setMenuOpen(false)}>
+            Gallery
+          </Link>
         </li>
         <li>
-          <Link to="/result">Result</Link>
+          <Link to="/result" onClick={() => setMenuOpen(false)}>
+            Result
+          </Link>
         </li>
         <li>
-          <Link to="/contact">Contact us</Link>
+          <Link to="/contact" onClick={() => setMenuOpen(false)}>
+            Contact Us
+          </Link>
         </li>
       </ul>
     </nav>

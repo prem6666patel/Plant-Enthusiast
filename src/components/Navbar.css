@@ -3,27 +3,28 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding: 10px 20px;
   background-color: #f8f8f8;
   position: relative;
-  height:95px;
+  height: 95px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
 }
 
 /* Logo Styling */
 .navbar-logo {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #2d6a4f;
-  font-family:cursive;
   display: flex;
   align-items: center;
-  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2d6a4f;
+  font-family: cursive;
+}
 
-  img{
-
-    height: 5rem;
-    width: 5rem;
-  }
+.navbar-logo img {
+  height: 3rem;
+  width: 3rem;
+  margin-right: 10px;
 }
 
 /* Navbar Links Styling */
@@ -32,40 +33,25 @@
   display: flex;
   gap: 20px;
   align-items: center;
-  justify-content: space-evenly;
+  transition: all 0.3s ease-in-out;
 }
 
 .navbar-links li {
-  padding: 0;
-}
-
-.navbar-links li:hover{
-  
-  background-color:antiquewhite;
-  color: #333;
-  padding: 0.5rem;
-  border: none;
-  border-radius: 1rem;
+  position: relative;
 }
 
 .navbar-links li a {
   text-decoration: none;
   color: #333;
   font-size: 1.3rem;
+  padding: 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
-.navbar-cta {
-  background-color: #2d6a4f;
-  color: white;
-  border: none;
-  padding: 10px 20px;
+.navbar-links li:hover a {
+  background-color: antiquewhite;
+  color: #2d6a4f;
   border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.navbar-cta:hover {
-  background-color: #1b4332;
 }
 
 /* Mobile Toggle Button */
@@ -73,32 +59,31 @@
   display: none;
   background: none;
   border: none;
-  font-size: 1rem;
+  font-size: 2rem;
   cursor: pointer;
-}
-
-.navbar-toggle:focus {
+  color: #333;
   outline: none;
 }
 
 /* Mobile Styles */
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: column;
-    align-items: flex-start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .navbar-links {
     display: none;
-    width: 100%;
     flex-direction: column;
+    width: 100%;
     gap: 10px;
     background-color: #f8f8f8;
-    padding: 10px 0;
     position: absolute;
-    top: 70px;
+    top: 95px;
     left: 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
   }
 
   .navbar-links.active {
@@ -106,19 +91,14 @@
   }
 
   .navbar-links li {
+    width: 100%;
     text-align: center;
-    padding: 10px;
-    width: 100%;
-  }
-
-  .navbar-cta {
-    width: 100%;
-    margin-top: 10px;
   }
 
   .navbar-toggle {
     display: block;
     margin-left: auto;
     font-size: 2rem;
+    padding-bottom: 50px;
   }
 }
