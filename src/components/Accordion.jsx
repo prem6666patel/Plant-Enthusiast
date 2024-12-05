@@ -11,13 +11,13 @@ const data = [
   },
   {
     icon: <HiOutlineHeart />,
-    heading: "Customized Maintenance Plans",
+    heading: "Maintenance Plans",
     detail:
       "We offer personalized plant maintenance plans to cater to the specific needs of your plants. From pest control to nutrient management, we’ve got your plants covered.",
   },
   {
     icon: <MdWaterDamage />,
-    heading: "Watering and Irrigation Systems",
+    heading: "Watering and Irrigation",
     detail:
       "We install and maintain efficient watering and irrigation systems to ensure that your plants receive the right amount of water, preventing overwatering or dehydration.",
   },
