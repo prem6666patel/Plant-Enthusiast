@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src="./public/plant_logo2.png" alt="Plant Enthusiast Logo" />
+        <img src="./public/plant_logo2.png" alt="" />
         <span>Plant Enthusiast</span>
       </div>
 
