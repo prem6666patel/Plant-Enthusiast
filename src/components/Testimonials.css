@@ -16,6 +16,11 @@
     gap: 20px;
     justify-content: center;
   }
+
+  .testimonial-card:hover{
+    scale:1.2;
+    
+  }
   
   .testimonial-card {
     background: #f8f8f8;

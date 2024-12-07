@@ -65,6 +65,11 @@
   outline: none;
 }
 
+li:hover{
+
+  scale: 1.2;
+}
+
 /* Mobile Styles */
 @media (max-width: 768px) {
   .navbar {

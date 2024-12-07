@@ -15,7 +15,6 @@ const Footer = () => {
       </div>
 
       <br />
-      <br />
 
       <p>&copy; 2024 Plantify. All rights reserved.</p>
     </footer>

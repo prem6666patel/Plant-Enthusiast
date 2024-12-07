@@ -15,14 +15,14 @@
     align-items: center;
     justify-content:space-evenly;
     color: white;
-    font-size: x-large;
+    font-size:1.5rem;
     cursor: pointer;
 
 }
 
 .footpanel:hover{
 
-  font-size: xx-large;
+  font-size:xx-large;
 }
 
   
