@@ -29,7 +29,7 @@ const Contact = () => {
 
                   <div className="flexColStart detail">
                     <span>Call</span>
-                    <span>1234567890</span>
+                    <span>9913124128</span>
                   </div>
                 </div>
 
@@ -44,7 +44,7 @@ const Contact = () => {
 
                   <div className="flexColStart detail">
                     <span>Chat</span>
-                    <span>1234567890</span>
+                    <span>9913124128</span>
                   </div>
                 </div>
 
@@ -61,7 +61,7 @@ const Contact = () => {
 
                   <div className="flexColStart detail">
                     <span>video Call</span>
-                    <span>1234567890</span>
+                    <span>9913124128</span>
                   </div>
                 </div>
 
@@ -78,7 +78,7 @@ const Contact = () => {
 
                   <div className="flexColStart detail">
                     <span>Message</span>
-                    <span>1234567890</span>
+                    <span>9913124128</span>
                   </div>
                 </div>
 
