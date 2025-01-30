@@ -1,6 +1,6 @@
 Plant Enthusiast 🌱 
 
-Welcome to the Plant Enthusiast website repository! This project showcases a modern and interactive platform, built with React.js, for a company specializing in professional plant care services.
+Welcome to the Plant Enthusiast website. This project showcases a modern and interactive platform, built with React.js, for a company specializing in professional plant care services.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
